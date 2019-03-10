@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<!--Import Google Icon Font-->
+      	<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+			<!-- Compiled and minified CSS -->
+	    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+
+	    <!-- Compiled and minified JavaScript -->
+	    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+
+	    <!-- font awesome -->
+ 		 <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp" crossorigin="anonymous">
+	            
+		<title>WiseWatch</title>
+		<link rel="stylesheet" href="">
+
+		<style type="text/css" media="screen">
+		
+		/* The map */
+		.Map{
+			text-align: center;
+		}
+		/*The input info*/
+		form{
+			float: center;
+			text-align: center;
+		}
+
+		/*Header Styling */
+		header{
+			background:url(Pictures/couple.jpg);
+		}
+
+
+
+
+
+
+		</style>
+
+		<script type="text/javascript">
+    		function success() {
+			 if(document.getElementById("u").value !=="" && document.getElementById("p").value !=="") { 
+		            document.getElementById('Loginbtn').disabled = false; 
+		        } 
+    }
+	    
+</script>
+	</head>
+
+
+
+	<body>
+<!-- /header -->
+	<<header>
+		
+	</header>		
+
+
+
+
+
+
+
+
+		
+		<div class="Home">
+
+			<!-- Login and Status Bar -->
+			<div class="Bar">
+				<nav>
+			    <div class="nav-wrapper purple darken-1">
+			      <a href="#" class="brand-logo">WiseWatch</a>
+			      <ul id="nav-mobile" class="right hide-on-med-and-down">
+			        <li><a href="sass.html">Contact us </a></li>
+			        <li><a href="badges.html">Sign Up</a></li>
+			      </ul>
+			    </div>
+			  </nav>
+			</div>
+
+
+			<!-- Heading  -->
+			<div class="center-align">
+				<h1>WiseWatch</h1>
+			</div>
+
+			<!-- Map -->
+			<div class = "Map">
+				<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3019.3602046704573!2d-73.9514664485397!3d40.82005113883261!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c2f6657fa896f5%3A0xa785a9c0ac09561a!2sThe+City+College+of+New+York!5e0!3m2!1sen!2sus!4v1552166063622" width="600" height="400" frameborder="0" style="border:0" allowfullscreen align=""></iframe>
+			</div>
+
+			<!-- Sign In Info --> 
+			<div class="Sign_in">
+				
+				<div class = "Log_in_portals">
+					
+					<form action="one_submit" method="get" accept-charset="utf-8">
+						<h5>Username:</h5>
+						<input id = "u" type="text" name="Username" value="" placeholder="Enter Username" onkeyup="success()"><br>
+						<h5>Password:</h5>
+						<input id = "p" type="text" name="Password" value="" placeholder="Enter Password" onkeyup="success()"><br>
+						<p></p>
+						<button id = "Loginbtn" class="btn-flat btn red darken-1 white-text btn waves-effect waves-light" type="submit" name="action" disabled>Log in
+					  </button>
+					</form>	
+				</div>
+			</div>
+		</div>
+		
+
+
+
+
+
+
+		<!-- Compiled and minified JavaScript -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-beta/js/materialize.min.js"></script>
+	</body>
+</html>

@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<!--Import Google Icon Font-->
+		<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+		<!-- Compiled and minified CSS -->
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+		<!-- Compiled and minified JavaScript -->
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+		<!-- font awesome -->
+		<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp" crossorigin="anonymous">
+		
+		<title>WiseWatch</title>
+		<link rel="stylesheet" href="">
+		<style type="text/css" media="screen">
+		
+		/* The map */
+		.Map{
+			text-align: center;
+		}
+		/*The input info*/
+		form{
+			float: center;
+			text-align: center;
+		}
+		/*Header Styling */
+		header{
+			background:url(Pictures/laughing.jpg);
+			background-size: cover;
+			background-position: center;
+			min-height: 1000px;
+		}
+		#no-shadows {
+		box-shadow: none!important;
+		}
+		#one {
+			shape-outside: : none!important;
+		}
+		@media screen and (max-width: 670px){
+			header{
+				min-height: 300px;
+			}
+		}
+/*		.parallax-container img{
+			height: auto;
+		}
+*/		#header h1{
+   			font-size: 600%;
+		}
+
+
+		</style>
+	</head>
+	<body>
+		<!-- /header -->
+		<header>
+			<nav id = "no-shadows" class="nav-wrapper transparent">
+				<div class="container ">
+					<!-- Logo -->
+					<a href="" class="brand-logo">WiseWatch</a>
+					<!-- Side bar -->
+					<a href = "" class = "sidenav-trigger" data-target = "mobile-menu">
+					<i class="material-icons">menu</i></a>
+					<!-- header icons -->
+					<ul id="nav-mobile" class="right hide-on-med-and-down">
+						<li><a class = "black-text" href="sass.html">Contact us </a></li>
+						<li><a class = "black-text" href="badges.html">Sign Up</a></li>
+						<li><a href="" class = "btn-floating btn-small transparent "><i class="fab fa-instagram"></i></a>
+						<li><a href="" class = "btn-floating btn-small transparent "><i class="fab fa-facebook"></i></a>
+						<li><a href="" class = "btn-floating btn-small transparent "><i class="fab fa-twitter"></i></a>
+					</ul>
+					<!-- Side bar icons -->
+					<ul class="sidenav grey lighten-5" id = "mobile-menu">
+						<li><a href="sass.html">Contact us </a></li>
+						<li><a href="badges.html">Sign Up</a></li>
+					</ul>
+				</div>
+			</nav>
+				<div class="container valign responsive">
+					<div class="valign-wrapper">
+					<div class="container center">
+
+						<div id = "header" class="col l12">
+							<h1 class="center-align white-text ">WiseWatch</h1>
+							<p class="center-align flow-text white-text">Watching when you can't</p>
+						</div>
+					</div>
+				</div>
+			</div>
+
+						</header>
+						<!-- Map and log in info -->
+						<section class="container section" id = "maps">
+							<!-- Map -->
+							<div class = "row">
+								<div class="col.sl2.l4 center">
+									<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3019.3602046704573!2d-73.9514664485397!3d40.82005113883261!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c2f6657fa896f5%3A0xa785a9c0ac09561a!2sThe+City+College+of+New+York!5e0!3m2!1sen!2sus!4v1552166063622" width="700" height="500" frameborder="0" style="border:0" allowfullscreen align=""></iframe>
+								</div>
+								
+							</div>
+							<div class='row'>
+								<div class='input-field col s12'>
+									<input class='validate' type='email' name='email' id='email' />
+									<label for='email'>Enter your email</label>
+								</div>
+							</div>
+							<div class='row'>
+								<div class='input-field col s12'>
+									<input class='validate' type='password' name='password' id='password' />
+									<label for='password'>Enter your password</label>
+								</div>
+								<label style='float: right;'>
+									<a class='pink-text' href='#!'><b>Forgot Password?</b></a>
+								</label>
+							</div>
+							<center>
+							<div class='row'>
+								<button type='submit' name='btn_login'id = "btn_login "class='col s12 btn btn-large waves-effect waves-light black' >Login</button>
+							</div>
+							</center>
+							
+						</div>
+						
+					</section>
+				</section>
+				<!-- Parallax  -->
+				<section>
+					<div class="parallax-container">
+						<div class="parallax">
+							
+							<img src="Pictures/smiling.jpg" alt="" class="responsive-img">
+							<h1 id="header">Text</h1>
+						</div>
+					</div>
+				</section>
+				<section class="container section" id = "aboutus">
+					<h1 class = "center">About Us</h1>
+				</section>
+				<!-- Footer -->
+				<!-- footer -->
+				<footer class="page-footer black">
+					<div class="container  center-align">
+						<div class="row">
+							<div class="center">
+								<h5 class="white-text">Connect</h5>
+								<ul>
+									<li><a class="grey-text text-lighten-3" href="#">Facebook</a></li>
+									<li><a class="grey-text text-lighten-3" href="#">Twitter</a></li>
+									<li><a class="grey-text text-lighten-3" href="#">Linked In</a></li>
+									<li><a class="grey-text text-lighten-3" href="#">Instagram</a></li>
+								</ul>
+							</div>
+						</div>
+					</div>
+					<div class="footer-copyright grey darken-4">
+						<div class="container center-align">&copy; 2019 Wisewatch</div>
+					</div>
+				</footer>
+				<!-- Compiled and minified JavaScript -->
+				<script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+				<script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-beta/js/materialize.min.js"></script>
+				<script>
+				$(document).ready(function(){
+				$('.sidenav').sidenav();
+				$('.parallax').parallax();
+				});
+				</script>
+				
+				</script>
+			</body>
+		</html>
